@@ -2,7 +2,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-In the project directory, you can run:
+Pour installer le projet:
+### `yarn install`
+
+Pour démarrer le projet:
 
 ### `yarn start`
 
@@ -28,7 +31,7 @@ avec des{" "}
 <ol>
 <li>
   Dresser un tableau listant les pays. Ce tableau contiendra les
-  colonnes suivantes: Nom, Code, Capitale, Lontitude, Lagitude{" "}
+  colonnes suivantes: Nom, Code, Capitale, Lontitude, Lagitude
 </li>
 <li>
   Mettre en place un système de pagination permettant de n'afficher
