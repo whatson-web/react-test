@@ -6,63 +6,67 @@ In the project directory, you can run:
 
 ### `yarn start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+<div className="task-summary">
+          Pour réaliser ce test, utiliser les données contenues dans
+          countries.json et effectuer les tâches numérotéees. Vous êtes libres
+          d'utiliser les modules de votre choix (ou même de ne pas en utiliser).
+          Vous êtes libres pour le design mais on ne sera pas très exigeant
+          dessus tant que c'est lisible et que ça ne pique pas trop les yeux 😉
+          Vous êtes encouragé à utiliser les meilleures pratiques possibles et à
+          créer autant de composants que bon vous semble, n'hésitez pas à
+          commenter votre code.
+          <br />
+          <br />
+          <b>Contrainte:</b> utiliser uniquement des Function Component React
+          avec des{" "}
+          <a
+            href="https://reactjs.org/docs/hooks-intro.html"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Hooks
+          </a>
+        </div>
 
-### `yarn test`
+        <ol>
+          <li>
+            Dresser un tableau listant les pays. Ce tableau contiendra les
+            colonnes suivantes: Nom, Code, Capitale, Lontitude, Lagitude{" "}
+          </li>
+          <li>
+            Mettre en place un système de pagination permettant de n'afficher
+            que 10 pays à la fois. Prevoir simplement un bouton "Suivant" et un
+            bouton "Précédent" pour pouvoir naviguer entre les pages.
+          </li>
+          <li>
+            Mettre en place un select qui permettra à l'utilisateur de trier les
+            pays dans le tableau:
+            <br />
+            - par ordre alphabétique de nom de pays <br />
+            - par ordre alphabétique inverse de nom de pays <br />
+            - par ordre alphabétique de nom de capitale <br />
+            - par ordre alphabétique inverse de nom de capitale <br />
+          </li>
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+          <li>
+            Mettre en place plusieurs champs input pour pouvoir filtrer les
+            résultats:
+            <br />
+            - par nom de pays
+            <br />
+            - par nom de capitale
+            <br />
+            <i>
+              Exemple: si je tape "Bel" dans le champs de recherche de pays,
+              seul les pays commençant par "bel" s'afficheront (soit Belgium,
+              Belize et Belarus){" "}
+            </i>
+          </li>
 
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+          <li>
+            Permettre à l'utilisateur de télécharger tous les résultats (en
+            fonction du tri et des filtres) dans un fichier CSV
+          </li>
+        </ol>
+      </div>
