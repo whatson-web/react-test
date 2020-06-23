@@ -19,14 +19,8 @@ créer autant de composants que bon vous semble, n'hésitez pas à
 commenter votre code.
 
 <b>Contrainte:</b> utiliser uniquement des Function Component React
-avec des{" "}
-<a
-  href="https://reactjs.org/docs/hooks-intro.html"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  Hooks
-</a>
+avec des Hooks
+
 
 <ol>
 <li>
